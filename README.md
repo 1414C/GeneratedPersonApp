@@ -11,7 +11,7 @@ Open a terminal window, switch to a folder under $GOPATH/src/ and perform the fo
     go get -u github.com/1414C/GeneratedPersonApp
 ```
 
-Edit the .dev.config.json file and verify the following:
+Edit the *.dev.config.json* file and verify the following:
 
 1. Set the "external_address" value to an ipv4 address that jiffy can bind the service end-points to.
 1. Edit the "database" sub-keys to aim at the database of your choosing as per the [Jiffy configuration documentation.](https://1414c.github.io/jiffy/usage/us-content-a/)
