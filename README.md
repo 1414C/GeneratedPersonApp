@@ -27,3 +27,9 @@ Review the content of the Jiffy docs starting at the [Let's Run Something](https
 ```
 
 Once the application is running, continue to follow the tutorial in the [Getting Started](https://1414c.github.io/jiffy/getting-started/level-two/) section to start testing the application via Postman or your favorite test tool.
+
+Subsequent starts of the application should omit the *-rs* flag as follows:
+
+```bash
+    go run main.go -dev
+```
