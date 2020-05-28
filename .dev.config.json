@@ -1,5 +1,5 @@
 {
-    "external_address": "127.0.0.1:3000",
+    "external_address": "127.0.0.1:8080",
     "internal_address": "127.0.0.1:4444",
     "env": "dev",
     "ping_cycle": 1,
@@ -7,12 +7,12 @@
     "pepper": "secret-pepper-key",
     "hmac_Key": "secret-hmac-key",
     "database": {
-        "db_dialect": "postgres",
-        "host": "localhost",
-        "port": 5432,
-        "usr": "godev",
-        "password": "gogogo123",
-        "name": "glrestgen",
+        "db_dialect": "sqlite",
+        "host": "",
+        "port": 0,
+        "usr": "",
+        "password": "",
+        "name": "testdb.db",
         "ormLogActive": true,
         "ormDebugTraceActive": false
     },
@@ -41,7 +41,7 @@
     },
     "logging": {
         "active": true,
-        "callLocation": true,
+        "callLocation": false,
         "colorMsgTypes": true,
         "infoMsgs": false,
         "warningMsgs": true,
